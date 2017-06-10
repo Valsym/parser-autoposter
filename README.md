@@ -122,4 +122,4 @@ post-circle1.php<br/>
 Carinthia.csv<br/>
 pogoda.php<br/>
 
-
+2015 - 2017 © Валерий Симонов
