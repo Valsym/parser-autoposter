@@ -1,0 +1,174 @@
+var locations = [
+{ html : 'Cervinia - Breuil', lat : '45.9318', lng : '7.62876' }
+];
+var map = null;
+var mbounds = null;
+make_GMap = function()
+<table class="ovv_info" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="ovv_status" colspan="2"><span class="current_status open">Open</span>
+<span class="open_close">Season Start/End: 31/10 - 1/5</span></td>
+</tr>
+<tr>
+<th>
+<div>Altitude</div>
+:</th>
+<td>2050m - 3480m</td>
+</tr>
+<tr>
+<th>
+<div>Pistes</div>
+:</th>
+<td class="ovv_trails "><span class="ovv_t t2">29%</span>|
+<span class="ovv_t t3">56%</span>|
+<span class="ovv_t t4">16%</span></td>
+</tr>
+<tr>
+<th>
+<div>Lifts</div>
+:</th>
+<td>64</td>
+</tr>
+<tr>
+<th style="border-bottom: 0;">
+<div>Lift Tickets</div>
+:</th>
+<td style="border-bottom: 0;">from €27.50 to €46.00
+<a title="Lift Tickets" href="/aosta-valley/cervinia-breuil/skipass.html">Complete list of skipass prices</a></td>
+</tr>
+</tbody>
+</table>
+<div class="module col_4">
+<h3 class="section_header">Altitude</h3>
+<div id="resort_elevation" class="resort_box resBox rbGrey">
+<ul>
+	<li class="top">
+<div class="value">3450m</div>
+<div class="label">Summit</div></li>
+	<li class="drop">
+<div class="value">1900m</div>
+<div class="label">Vertical Drop</div></li>
+	<li class="bottom">
+<div class="value">1550m</div>
+<div class="label">Base</div></li>
+</ul>
+</div>
+</div>
+<!-- /.module -->
+<div class="module col_4">
+<h3 class="section_header">Lifts</h3>
+<div id="resort_lifts" class="resort_box resBox rbGrey">
+<ul>
+<ul>
+	<li class="trams" title="Gondolas &amp; Trams: 5">5</li>
+	<li class="fast_eight" title="Eight Person Lifts: 0">0</li>
+	<li class="fast_sixes" title="High Speed Sixes: 6">6</li>
+	<li class="fast_quads" title="High Speed Quads: 6">6</li>
+	<li class="quad" title="Quad Chairs: 6">6</li>
+	<li class="triple" title="Triple Chairs: 3">3</li>
+	<li class="double" title="Double Chairs: 0">0</li>
+	<li class="surface" title="Surface Lifts: 13">13</li>
+	<li class="total" title="Total Number Of Lifts: 39">39
+Total</li>
+</ul>
+</ul>
+<div class="clear"></div>
+</div>
+</div>
+<div class="module col_8">
+<h3 class="section_header">Terrain</h3>
+<div id="resort_terrain" class="resort_box resBox rbGrey">
+<ul class="rt_trail ">
+<ul class="rt_trail ">
+	<li>
+<p class="label">Beginner Runs</p>
+<p class="value beginner">8%</p>
+</li>
+	<li>
+<p class="label">Intermediate Runs</p>
+<p class="value intermediate">44%</p>
+</li>
+	<li>
+<p class="label">Advanced Runs</p>
+<p class="value advanced">27%</p>
+</li>
+	<li>
+<p class="label">Expert Runs</p>
+<p class="value expert">21%</p>
+</li>
+</ul>
+</ul>
+<div class="clear"></div>
+<ul>
+<ul>
+	<li>
+<p class="label">Runs</p>
+<p class="value">77</p>
+</li>
+	<li>
+<p class="label">KM Pistes</p>
+<p class="value">150
+<span class="unit">km</span></p>
+</li>
+	<li>
+<p class="label">Terrain Parks</p>
+<p class="value">2</p>
+</li>
+	<li>
+<p class="label">Longest Run</p>
+<p class="value">5
+<span class="unit">km</span></p>
+</li>
+<li>
+    <p class="label">Skiable Terrain</p>
+    <p class="value">12
+        <span class="unit">ha</span>
+    </p>
+  </li>
+</ul>
+</ul>
+<div class="clear"></div>
+<ul>
+<ul>
+</ul>
+</ul>
+<div class="clear"></div>
+<ul>
+  <li>
+    <p class="label">Snow Making</p>
+    <p class="value">10
+        <span class="unit">ha</span>
+    </p>
+  </li>
+
+
+  <li>
+    <p class="label">KM Snow Making</p>
+    <p class="value">4
+        <span class="unit">km</span>
+    </p>
+  </li>
+            <div class="clear"></div>
+        </ul>
+</div>
+</div>
+<div class="module col_8">
+<h3 class="section_header  resModuleHeader">Tourist Office</h3>
+<div id="resort_contact" class="resort_box resBox rbGrey">
+<ul>
+<ul>
+	<li><strong>Cervinia - Breuil</strong>
+
+11021
+
+Italy
+
+Phone: +39 0166 944 311
+
+<a title="info@cervinospa.com" href="mailto:info@cervinospa.com">info@cervinospa.com</a></li>
+</ul>
+</ul>
+<div class="clear"></div>
+</div>
+</div>
