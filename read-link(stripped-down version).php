@@ -1,7 +1,7 @@
 <?php
 //чтение proxy
 
-$proxy = file('http://fanski.ru/wp-content/uploads/sn-dop/proxy-list.csv');
+$proxy = file('/.../proxy-list.csv');
 
 //чтение 
 //и Главный цикл
